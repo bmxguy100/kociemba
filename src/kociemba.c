@@ -3,7 +3,7 @@
 #include "search.h"
 #include "kociemba.h"
 
-char* solve(const char* facelets){
+char* solve(char* facelets){
     return solution(
         facelets,
         24, 1000, 0,
@@ -11,7 +11,7 @@ char* solve(const char* facelets){
     );
 }
 
-char* solve_pattern(const char* facelets, const char* pattern){
+char* solve_pattern(char* facelets, char* pattern){
     char patternized[64];
     patternize(facelets, pattern, patternized);
 
