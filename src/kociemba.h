@@ -6,9 +6,9 @@
 extern "C" {
 #endif
 
-char* solve(char* facelets);
+const char* solve(const char* facelets);
 
-char* solve_pattern(char* facelets, char* pattern);
+const char* solve_pattern(const char* facelets, const char* pattern);
 
 #ifdef __cplusplus
 }
