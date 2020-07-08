@@ -6,7 +6,8 @@
 const char* solve(const char* facelets){
     return solution(
         facelets,
-        24, 1000, 0,
+        // 24, 1000, 0, // (defaults)
+        30, 5000, 0, // Modified for the slow CPU
         "cache"
     );
 }
