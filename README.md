@@ -1,3 +1,9 @@
+# kociemba-c
+
+kociemba python library converted into a C library. Original README below.
+
+---
+
 [![Build Status](https://travis-ci.org/muodov/kociemba.svg?branch=master)](https://travis-ci.org/muodov/kociemba)
 
 # kociemba
